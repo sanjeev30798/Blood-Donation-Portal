@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Donation process</title>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+.back
+    {
+        background-color: #ABB2B9 ;
+    }
+.but_back
+    {
+        background-color: darkred;
+    }
+</style>    
+<body class="back">
+<div class="container" style="text-justify: inter-word;color:red;" >
+    <h2 style="color: darkred;font-size: 48px"><center>Blood Donation Portal</center></h2>
+</div>
+    <div class="button" style="text-justify: inter-word">
+      <a href="Login_Signup.html" class="btn btn-primary but_back">Login/Signup </a>
+
+  <div class="btn-group btn-group-justified">
+    <a href="home.html" class="btn btn-primary but_back"><strong>Home</strong></a> 
+    <a href="Blood_Bank.html" class="btn btn-primary but_back"><strong>Blood Bank</strong></a>
+    <a href="Donors.html" class="btn btn-primary but_back"><strong>Donors</strong></a>
+    <a href="Recipient.html" class="btn btn-primary but_back"><strong>Recipient</strong></a>
+    <a href="FAQ.html" class="btn btn-primary but_back"><strong>FAQ</strong></a>
+    <a href="Contact.html" class="btn btn-primary but_back"><strong>Contact</strong></a>    
+  </div>
+ </div>
+</body>
+<body>
+    <br>
+    <ul class="breadcrumb back">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="Donors.html">Donors</a></li>
+        <li><a href="Beingadonor.html">Being a donor</a></li>    
+    <li><a href="Donation_process.html" class="active">Donation process</a></li>        
+  </ul>
+</body>    
+    <style>
+        #b1
+        {
+            background-color: #ca3636;border=2px;color: white;border-bottom: solid 5px #990000;border-color: #ca3636;border-style: inset;padding: 10px 10px 10px 10px;font-size: 20px;
+        }
+        #b2
+        {
+            background-color: #ccc;border=2px;color: black;border-bottom: solid 5px #990000; border-color: #ca3636; border-style: inset;padding: 10px 10px 10px 10px;font-size: 20px
+        }
+        #b3
+        {
+            background-color: #ccc;border=2px;color: black;border-bottom: solid 5px #990000; border-color: #ca3636; border-style: inset;padding: 10px 10px 10px 10px;font-size: 20px
+        }
+        
+    </style>
+<script>
+    $(document).ready(function()
+     {
+        $("#b1").show();
+        $("#b2").css({"color":"black","background-color":"#ccc"});
+        $("#b3").css({"color":"black","background-color":"#ccc"}); 
+        $("div.b2_data").hide();
+        $("div.b3_data").hide();
+        $("div.b1_data").show();
+        
+        
+    });
+     $(document).ready(function()
+     {
+         $("#b1").click(function()
+         {
+                $("#b2").css({"color":"black","background-color":"#ccc"});
+                $("#b3").css({"color":"black","background-color":"#ccc"});
+                $(this).css({"color":"white","background-color":"#ca3636"});
+                $("div.b2_data").hide();
+                $("div.b3_data").hide();
+                $("div.b1_data").show();
+        
+         });
+         $("#b2").click(function()
+         {
+                $("#b1").css({"color":"black","background-color":"#ccc"});
+                $("#b3").css({"color":"black","background-color":"#ccc"});
+                $(this).css({"color":"white","background-color":"#ca3636"});
+                $("div.b1_data").hide();
+                $("div.b3_data").hide();
+                $("div.b2_data").show();
+                
+         });
+         $("#b3").click(function()
+         {
+                $("#b2").css({"color":"black","background-color":"#ccc"});
+                $("#b1").css({"color":"black","background-color":"#ccc"});
+                $(this).css({"color":"white","background-color":"#ca3636"});
+                $("div.b1_data").hide();
+                $("div.b2_data").hide();
+                $("div.b3_data").show();
+
+         });    
+         
+    });
+        
+        
+</script>
+<style>
+    .list1
+    {
+        font-size: 17px;
+        line-height: 30px;
+    }
+</style>    
+ <body>
+   <div class="row">
+     <div class="col-sm-1"></div>
+        <div class="col-sm-8">
+            <br>
+        <button type="button" class="btn" id="b1">Where can one donate blood?</button>
+        <button type="button" class="btn" id="b2">Post-Donation</button>
+        <button type="button" class="btn" id="b3">What happens to the blood you donated?</button>
+            <br><br>
+    <div class="b1_data"> 
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-3">
+                <img src="BloodBanks.png" alt="Blood Banks">
+            </div>
+            <div class="col-sm-3">
+                <img src="Blood_Donation_Camp.png" alt="Blood Donation Camps">
+            </div>
+            <div class="col-sm-3">
+                <img src="blood_Mobiles.png" alt="Blood Mobiles">
+            </div>
+        </div> 
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-3">
+                <h4>Blood Banks</h4>
+            </div>
+            <div class="col-sm-3">
+                    <h4>Blood Donation Camps</h4> 
+            </div>
+            <div class="col-sm-3">
+                <h4>Blood Mobiles</h4>
+            </div>
+        </div> 
+        <h4> A person can donate blood either in a licensed blood bank, blood donation camps or at a blood mobile.</h4>
+        <br>
+        <h3>Blood Banks</h3>
+        <li>Any person can walk-in voluntarily any time round the clock at their own convenience to donate blood in a licensed blood bank.</li>
+        <li>Beside, an In-house camp can be organized in a blood bank on pre-fixed dates with the Organisers and Blood Bank in charge.</li>
+        <h3>Outdoor Camps</h3>
+        <p>Prefixed venues by Organisers like educational institutions, industrial and commercial houses etc. Blood Banks organize camps in these sites/ premises on a fixed day as decided by SBTC.</p>
+        <br>
+        <h4>What to expect when you visit a Blood Bank or Blood Donation Camp</h4>
+        <div class="row">
+            <div class="col-sm-3">
+            <img src="Registration.png">
+            </div>
+            <div class="col-sm-6">
+                <h3>Registration (10 Mins)</h3>
+                <p>Donor fills up the registration form and gives his consent for donation.</p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-7">
+                <h3>Medical Check up (5 Mins)</h3>
+                <p>Donors Medical History & life style is asked, check up of temperature, blood pressure, pulse and haemoglobin.</p>
+            </div>
+            <div class="col-sm-3">
+            <img src="checkup.png">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-3">
+            <img src="Registration.png">
+            </div>
+            <div class="col-sm-6">
+                <h3>Donation (8 Mins)</h3>
+                <p>Phlebotomist draws unit (350ml/450ml) of blood. A new sterile meedle is used to draw each unit and the needle is destroyed after it has been used. It taked less than 10 min.</p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-7">
+                <h3>Refreshment (10 Mins)</h3>
+                <p>Enjoy Snacks and drinks juice to replenish fluids.</p>
+            </div>
+            <div class="col-sm-3">
+            <img src="checkup.png">
+            </div>
+        </div>
+    </div>
+    
+        <!--- Post Donation--->
+    <div class="b2_data">
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-3"><img src="drink.png" alt="Drink fluids"></div>
+        <div class="col-sm-3"><img src="heavy%20weight.png" alt="no heavy weight"></div>
+        <div class="col-sm-3"><img src="dizzy.png" alt="Dizzeness"></div>  
+    </div>
+        <br>
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-3"><p>Drink plenty of fluids like water, soup and fruit juices to replace the volume lost during donation.</p></div>
+        <div class="col-sm-3"><p>Avoid lifting heavy weights with the donation arm or engaging in strenuous physical activities to prevent complications.</p></div>
+        <div class="col-sm-3"><p>If you feel dizzy, unwell or have cold sweats, follow the steps listed below.</p></div>  
+    </div>
+    <li class="list1" >Take a seat or Iie down immediately, preferably with your feet raised, until the feeling passes. <br> &emsp;&ensp;Loosen any restrictive garments and keep breathing smoothly.</li>
+    <li class="list1">Keep calm and take slow and long deep breaths.</li>
+    <li class="list1"> Seek assistance from any passer-by or people near you.</li>
+    <li class="list1">If the condition does not improve or for any reason something doesn't feel right, call the Blood Bank.</li>  
+    <br>
+    <p class="list1">In uncommon situations where fresh bleeding occurs after the plaster is removed, put gentle pressure on the venepuncture site, raise your arm for 3-5 minutes and apply a bandage to the site.</p>    
+    <br>
+    <p class="list1">The bandage or the dressing can be removed after 6 hours. If you notice bruising around the venepuncture site, it is usually caused by bleeding into the tissue underneath the skin.</p>
+    <br>
+    <p class="list1">It will usually resolve in a week's time. If you feel pain or discomfort, applying a cold compress to the area may help. If the venepuncture site becomes swollen or blue or you experience pain or numbness in the arm, call the blood bank.</p>    
+        
+    </div>        
+    <!--  What happens to the blood donated--->   
+    <div class="b3_data">
+        <h2>Screening</h2>
+        <p class="list1">Blood safety means ensuring that it is safe for the donor to donate blood given current health status as well as that donated blood carries minimal risk of adverse effects for the recipient in terms of matching blood groups and is free of Transfusion Transmissible Infections (TTIs). TTIs are infections which occur in a recipient of a blood transfusion if the transfused blood contains a pathogen. Many organisms like bacteria, viruses and parasites can be transmitted through blood transfusions.</p>
+        
+        <p class="list1">The Drugs and Cosmetics Act of India mandates that all blood units that are collected in blood banks for the purpose of transfusion should be screened for the following organisms:</p>
+        <li class="list1">Human Immunodeficiency Virus (HIV)</li>
+        <li class="list1">Hepatitis B and Hepatitis C Virus</li>
+        <li class="list1">Treponema Pallidum (which causes Syphilis)</li>
+        <li class="list1">Plasmodium species (which causes Malaria)</li><br>
+        <p class="list1">Blood which is detected as having any of these infections is destroyed to prevent infecting others.</p>
+        <h2>Separation</h2>
+        <img src="http://nbtc.naco.gov.in/images/seperation.png" alt="Blood Separation" width=900>
+        <p class="list1">Blood is often separated into its individual components, so patients can be given what they need, for example red blood cells or platelets.</p>
+        <p class="list1"><strong>Red Blood Cells (RBCs)</strong>contain haemoglobin, which distributes oxygen to body tissues, and carries waste carbon dioxide back to the lungs. RBCs are transfused in case of trauma cases, surgery or to treat severe anemia.</p>
+        <p class="list1"><strong>Platelets </strong>are crucial in helping blood to clot: they do this by clumping together to stop bleeding after an injury.</p>
+        <p class="list1"><strong>Plasma</strong> is the fluid that carries all blood cells and components. Plasma contains a large number of proteins and substances which are often important ingredients in medical procedures. Plasma is transfused to patients to treat shock due to plasma loss from burns or massive bleeding.</p>
+        <h3>Plasma includes:</h3>
+        <p class="list1"><i>Albumin</i> - a protein useful for treating kidney and liver disease<br>
+            <i>Clotting factors</i> - used to treat types of haemophilia and diseases where blood doesn't clot properly<br>
+            <i>Immunoglobins</i> - these antibodies help protect against infections</p>
+        <img src="http://nbtc.naco.gov.in/images/seperation.png" alt="Blood Separation" width=900>
+        <h3><center>Storage Period</center></h3>
+        
+        
+        <h3>Issuing of blood components</h3>
+        <table class="table table-striped">
+            <tbody>
+              <tr class="list1">
+                <td>42 days in the refrigerator or 10 days in the freezer</td>
+              </tr>
+              <tr  class="list1">
+                <td>1 year in the freezer</td>
+              </tr>
+              <tr class="list1">
+                <td>5 days at the room temperature</td>
+              </tr>
+              <tr class="list1">
+                <td>1 year in the freezer</td>
+              </tr>
+            </tbody>
+            
+      </table>
+        <p class="list1">On request generated by authorized medical personnel your blood components will be issued to a recipient subject to blood group compatibility and blood bank inventory protocols.</p>
+    </div>   
+    </div>
+        <div class="col-sm-2">
+          <br><br><br>
+            <h3>Navigation</h3>
+              <a href="Beingadonor.html" style="font-size:17px;color:darkred"><li>Being a donor</li></a>
+              <a href="Eligibility.html"><li style="font-size:17px;color:darkred"> Eligibility Requirements</li></a>
+              <a href="Donation_process.html"><li style="font-size:17px;color:darkred"> Donation Process</li></a>
+              <br><br>
+              <div class="col-sm-6"><img src="http://nbtc.naco.gov.in/images/sidebar3.jpg" class="img-rounded" alt="Apheres.png"></div>
+        </div>
+   </div>
+    </body>
+</html>
